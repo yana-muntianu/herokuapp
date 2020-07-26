@@ -1,0 +1,19 @@
+## IntelliJ
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+## Java
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.rar
+
+## Log file
+*.log
