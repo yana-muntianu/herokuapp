@@ -17,3 +17,6 @@ out/
 
 ## Log file
 *.log
+
+## Driver
+chromedriver

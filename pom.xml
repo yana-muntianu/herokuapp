@@ -12,8 +12,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <testng.version>6.8.8</testng.version>
         <selenium-server.version>3.14.0</selenium-server.version>
-        <selenium-firefox-driver.version>2.53.1</selenium-firefox-driver.version>
-        <selenium-java.version>2.53.1</selenium-java.version>
+        <selenium-java.version>3.141.59</selenium-java.version>
+        <selenium-chrome-driver>3.141.59</selenium-chrome-driver>
         <logback-classic.version>1.2.3</logback-classic.version>
         <junit.version>3.8.1</junit.version>
         <maven-surefire.version>2.19</maven-surefire.version>
@@ -35,13 +35,13 @@
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-firefox-driver</artifactId>
-            <version>${selenium-firefox-driver.version}</version>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium-java.version}</version>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>${selenium-java.version}</version>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>${selenium-chrome-driver}</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
@@ -56,6 +56,7 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
