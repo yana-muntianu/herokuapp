@@ -10,10 +10,10 @@ public class TestHerokuAppInputs extends TestSetup {
 
     final static Logger LOG = LoggerFactory.getLogger(TestHerokuAppInputs.class);
 
-    @Test(testName = "Test input field on /inputs page")
+    @Test(testName = "Input valid data to input field ")
     public void inputValidDataIntoInputFieldTest() {
 
-        LOG.info("Start: Test input field on /inputs page ");
+        LOG.info("Start: Input valid data to input field ");
 
         HerokuappInputPage inputPage = new HerokuappInputPage(getDriver());
         inputPage.navigateToInputsPage()
@@ -21,6 +21,6 @@ public class TestHerokuAppInputs extends TestSetup {
 
         Assert.assertEquals(inputPage.getTextFromInput(), "1234", "Text is different:");
 
-        LOG.info("Finished: Test input field on /inputs page ");
+        LOG.info("Finish: Input valid data to input field ");
     }
 }
