@@ -15,7 +15,7 @@
         <selenium-java.version>3.141.59</selenium-java.version>
         <selenium-chrome-driver>3.141.59</selenium-chrome-driver>
         <logback-classic.version>1.2.3</logback-classic.version>
-        <junit.version>3.8.1</junit.version>
+        <junit.version>4.13.1</junit.version>
         <maven-surefire.version>2.19</maven-surefire.version>
         <maven-surefire-reports-plugin.version>2.19.1</maven-surefire-reports-plugin.version>
 
